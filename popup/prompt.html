@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Selenium By Ramesh Anapati </title>
+</head>
+<body>
+<h2>Selenium By Ramesh Anapati</h2>
+<fieldset>
+<legend>Prompt Box</legend>
+<p>Click</p>
+<button onclick="promptFunction()">Click</button>
+<p id="promptdemo"></p>
+<script>
+function promptFunction()
+{
+var x;
+var person=prompt("Please enter your name for new batch","Your name");
+if (person!=null)
+  {
+  x="Hello " + person + "! Welcome to Selenium";
+  document.getElementById("promptdemo").innerHTML=x;
+  }
+}
+</script>
+</fieldset>
+</body>
+</html>

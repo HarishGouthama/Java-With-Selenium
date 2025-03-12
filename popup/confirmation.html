@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Selenium By Ramesh Anapati </title>
+</head>
+<body>
+<h2>Selenium By Ramesh Anapati</h2>
+<fieldset>
+<legend>Confirm Box</legend>
+<p>Click</p>
+<button onclick="confirmFunction()">Click</button>
+<p id="confirmdemo"></p>
+<script>
+function confirmFunction()
+{
+var cb;
+var c=confirm("I am an Example for Confirm Box.\n Press any button!");
+if (c==true)
+  {
+  cb="You Clicked on OK!";
+  }
+else
+  {
+  cb="You Clicked on Cancel!";
+  }
+document.getElementById("confirmdemo").innerHTML=cb;
+}
+</script>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <test thread-count="2" name="TestDemo2(failed)" parallel="tests">
+    <parameter name="testName" value="FireFox Test"/>
+    <classes>
+      <class name="com.rameshsoftautomation.TestngPrograms.ParallelSuiteDemo">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testMethodOne"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.rameshsoftautomation.TestngPrograms.ParallelSuiteDemo -->
+    </classes>
+  </test> <!-- TestDemo2(failed) -->
+  <test thread-count="2" name="TestDemo1(failed)" parallel="tests">
+    <parameter name="testName" value="Chrome Test"/>
+    <classes>
+      <class name="com.rameshsoftautomation.TestngPrograms.ParallelSuiteDemo">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testMethodOne"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.rameshsoftautomation.TestngPrograms.ParallelSuiteDemo -->
+    </classes>
+  </test> <!-- TestDemo1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
