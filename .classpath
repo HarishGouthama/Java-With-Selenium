@@ -86,5 +86,6 @@
 	<classpathentry kind="lib" path="D:/RameshSoft Automation Testing/testng-6.14.3.jar"/>
 	<classpathentry kind="lib" path="D:/RameshSoft Automation Testing/extentreports-2.40.2.jar"/>
 	<classpathentry kind="lib" path="D:/RameshSoft Automation Testing/freemarker-2.3.32.jar"/>
+	<classpathentry kind="lib" path="D:/RameshSoft Automation Testing/mysql-connector-j-9.1.0.zip"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
